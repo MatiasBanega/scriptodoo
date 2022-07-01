@@ -59,6 +59,39 @@ cd $PATHBASE
 
 sudo git clone https://github.com/odoo/odoo.git -b $VERSION --depth $DEPTH $PATHBASE/$VERSION/odoo
 sudo git clone https://github.com/oca/web.git -b 14.0 --depth $DEPTH $PATHREPOS_OCA/web
+sudo git clone https://github.com/MatiasBanega/CybroAddons.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/account-analytic.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/account-financial-tools.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/account-payment.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/accounting_pdf_reports.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/auto_backup.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/bank-payment.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/boton_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/geospatial.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/kg_hide_menu.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/l10n_ar_local.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/management-system.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/odoo-argentina.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/odoo-argentina-codize.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/odoo-custom.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/obayit/odoo_dhtmlxgantt.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/openeducat_erp.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/operating-unit.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/payment_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/product-attribute.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/project-1.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/pyar/pyafipws.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/odooapps.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/query_deluxe.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/reporting-engine.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/sale-reporting.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/server-brand.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/server-tools.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/server-ux.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/transport-management-system.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/OCA/website.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/website_iframe_snippet.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone git@github.com:MatiasBanega/wk_base_survey.git -b 14.0 --depth $DEPTH $PATHREPOS
 
 
 # Install python3 and dependencies for Odoo
@@ -125,7 +158,19 @@ logfile= $PATH_LOG/odoo$VCODE-server.log
 addons_path =
     $PATHREPOS,
     $PATHREPOS_OCA/web,
-    $PATHBASE/$VERSION/odoo/addons
+    $PATHBASE/$VERSION/odoo/addons,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
+    $PATHREPOS,
 
 #################################################################
 
