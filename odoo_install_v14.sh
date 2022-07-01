@@ -59,39 +59,40 @@ cd $PATHBASE
 
 sudo git clone https://github.com/odoo/odoo.git -b $VERSION --depth $DEPTH $PATHBASE/$VERSION/odoo
 sudo git clone https://github.com/oca/web.git -b 14.0 --depth $DEPTH $PATHREPOS_OCA/web
-sudo git clone https://github.com/MatiasBanega/CybroAddons.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/account-analytic.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/account-financial-tools.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/account-payment.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/accounting_pdf_reports.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/auto_backup.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/bank-payment.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/boton_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/geospatial.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/kg_hide_menu.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/l10n_ar_local.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/management-system.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/odoo-argentina.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/odoo-argentina-codize.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/odoo-custom.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/obayit/odoo_dhtmlxgantt.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/openeducat_erp.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/operating-unit.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/payment_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/product-attribute.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/project-1.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/pyar/pyafipws.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/odooapps.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/query_deluxe.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/reporting-engine.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/sale-reporting.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/server-brand.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/server-tools.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/server-ux.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/transport-management-system.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/OCA/website.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone https://github.com/MatiasBanega/website_iframe_snippet.git -b 14.0 --depth $DEPTH $PATHREPOS
-sudo git clone git@github.com:MatiasBanega/wk_base_survey.git -b 14.0 --depth $DEPTH $PATHREPOS
+sudo git clone https://github.com/MatiasBanega/CybroAddons.git -b 14.0 --depth $DEPTH $PATHREPOS/CybroAddons
+sudo git clone https://github.com/OCA/account-analytic.git -b 14.0 --depth $DEPTH $PATHREPOS/account-analytic
+sudo git clone https://github.com/OCA/account-financial-tools.git -b 14.0 --depth $DEPTH $PATHREPOS/account-financial-tools
+sudo git clone https://github.com/OCA/account-payment.git -b 14.0 --depth $DEPTH $PATHREPOS/account-payment/account-payment
+sudo git clone https://github.com/MatiasBanega/accounting_pdf_reports.git -b 14.0 --depth $DEPTH $PATHREPOS/accounting_pdf_reports
+sudo git clone https://github.com/MatiasBanega/auto_backup.git -b 14.0 --depth $DEPTH $PATHREPOS/auto_backup
+sudo git clone https://github.com/OCA/bank-payment.git -b 14.0 --depth $DEPTH $PATHREPOS/bank-payment
+sudo git clone https://github.com/MatiasBanega/boton_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS/boton_mercadopago
+sudo git clone https://github.com/OCA/geospatial.git -b 14.0 --depth $DEPTH $PATHREPOS/geospatial
+sudo git clone https://github.com/MatiasBanega/kg_hide_menu.git -b 14.0 --depth $DEPTH $PATHREPOS/kg_hide_menu
+sudo git clone https://github.com/MatiasBanega/l10n_ar_local.git -b 14.0 --depth $DEPTH $PATHREPOS/l10n_ar_local
+sudo git clone https://github.com/MatiasBanega/management-system.git -b 14.0 --depth $DEPTH $PATHREPOS/management-system
+sudo git clone https://github.com/MatiasBanega/odoo-argentina.git -b 14.0 --depth $DEPTH $PATHREPOS/odoo-argentina
+sudo git clone https://github.com/MatiasBanega/odoo-argentina-codize.git -b 14.0 --depth $DEPTH $PATHREPOS/odoo-argentina-codize
+sudo git clone https://github.com/MatiasBanega/odoo-custom.git -b 14.0 --depth $DEPTH $PATHREPOS/odoo-custom
+sudo git clone https://github.com/obayit/odoo_dhtmlxgantt.git -b 14.0 --depth $DEPTH $PATHREPOS/odoo_dhtmlxgantt
+sudo git clone https://github.com/MatiasBanega/openeducat_erp.git -b 14.0 --depth $DEPTH $PATHREPOS/openeducat_erp
+sudo git clone https://github.com/MatiasBanega/operating-unit.git -b 14.0 --depth $DEPTH $PATHREPOS/operating-unit
+sudo git clone https://github.com/MatiasBanega/payment_mercadopago.git -b 14.0 --depth $DEPTH $PATHREPOS/payment_mercadopago
+sudo git clone https://github.com/OCA/product-attribute.git -b 14.0 --depth $DEPTH $PATHREPOS/product-attribute
+sudo git clone https://github.com/MatiasBanega/project-1.git -b 14.0 --depth $DEPTH $PATHREPOS/project-1
+sudo git clone https://github.com/pyar/pyafipws.git -b 14.0 --depth $DEPTH $PATHREPOS/pyafipws
+sudo git clone https://github.com/MatiasBanega/odooapps.git -b 14.0 --depth $DEPTH $PATHREPOS/odooapps
+sudo git clone https://github.com/MatiasBanega/query_deluxe.git -b 14.0 --depth $DEPTH $PATHREPOS/query_deluxe
+sudo git clone https://github.com/OCA/reporting-engine.git -b 14.0 --depth $DEPTH $PATHREPOS/reporting-engine
+sudo git clone https://github.com/MatiasBanega/sale-reporting.git -b 14.0 --depth $DEPTH $PATHREPOS/sale-reporting
+sudo git clone https://github.com/OCA/server-brand.git -b 14.0 --depth $DEPTH $PATHREPOS/server-brand
+sudo git clone https://github.com/MatiasBanega/server-tools.git -b 14.0 --depth $DEPTH $PATHREPOS/server-tools
+sudo git clone https://github.com/MatiasBanega/server-ux.git -b 14.0 --depth $DEPTH $PATHREPOS/server-ux
+sudo git clone https://github.com/MatiasBanega/transport-management-system.git -b 14.0 --depth $DEPTH $PATHREPOS/transport-management-system
+sudo git clone https://github.com/OCA/website.git -b 14.0 --depth $DEPTH $PATHREPOS/website
+sudo git clone https://github.com/MatiasBanega/website_iframe_snippet.git -b 14.0 --depth $DEPTH $PATHREPOS/website_iframe_snippet
+sudo git clone git@github.com:MatiasBanega/wk_base_survey.git -b 14.0 --depth $DEPTH $PATHREPOS/wk_base_survey
+
 
 
 # Install python3 and dependencies for Odoo
@@ -160,38 +161,38 @@ addons_path =
     $PATHREPOS_OCA/web,
     $PATHBASE/$VERSION/odoo/addons,
     $PATHREPOS/CybroAddons,
-$PATHREPOS/account-analytic,
-$PATHREPOS/account-financial-tools,
-$PATHREPOS/account-payment,
-$PATHREPOS/accounting_pdf_reports,
-$PATHREPOS/auto_backup,
-$PATHREPOS/bank-payment,
-$PATHREPOS/boton_mercadopago,
-$PATHREPOS/geospatial,
-$PATHREPOS/kg_hide_menu,
-$PATHREPOS/l10n_ar_local,
-$PATHREPOS/management-system,
-$PATHREPOS/odoo-argentina,
-$PATHREPOS/odoo-argentina-codize,
-$PATHREPOS/odoo-custom,
-$PATHREPOS/odoo_dhtmlxgantt,
-$PATHREPOS/openeducat_erp,
-$PATHREPOS/operating-unit,
-$PATHREPOS/payment_mercadopago,
-$PATHREPOS/product-attribute,
-$PATHREPOS/project-1,
-$PATHREPOS/pyafipws,
-$PATHREPOS/odooapps,
-$PATHREPOS/query_deluxe,
-$PATHREPOS/reporting-engine,
-$PATHREPOS/sale-reporting,
-$PATHREPOS/server-brand,
-$PATHREPOS/server-tools,
-$PATHREPOS/server-ux,
-$PATHREPOS/transport-management-system,
-$PATHREPOS/website,
-$PATHREPOS/website_iframe_snippet,
-$PATHREPOS/wk_base_survey
+    $PATHREPOS/account-analytic,
+    $PATHREPOS/account-financial-tools,
+    $PATHREPOS/account-payment,
+    $PATHREPOS/accounting_pdf_reports,
+    $PATHREPOS/auto_backup,
+    $PATHREPOS/bank-payment,
+    $PATHREPOS/boton_mercadopago,
+    $PATHREPOS/geospatial,
+    $PATHREPOS/kg_hide_menu,
+    $PATHREPOS/l10n_ar_local,
+    $PATHREPOS/management-system,
+    $PATHREPOS/odoo-argentina,
+    $PATHREPOS/odoo-argentina-codize,
+    $PATHREPOS/odoo-custom,
+    $PATHREPOS/odoo_dhtmlxgantt,
+    $PATHREPOS/openeducat_erp,
+    $PATHREPOS/operating-unit,
+    $PATHREPOS/payment_mercadopago,
+    $PATHREPOS/product-attribute,
+    $PATHREPOS/project-1,
+    $PATHREPOS/pyafipws,
+    $PATHREPOS/odooapps,
+    $PATHREPOS/query_deluxe,
+    $PATHREPOS/reporting-engine,
+    $PATHREPOS/sale-reporting,
+    $PATHREPOS/server-brand,
+    $PATHREPOS/server-tools,
+    $PATHREPOS/server-ux,
+    $PATHREPOS/transport-management-system,
+    $PATHREPOS/website,
+    $PATHREPOS/website_iframe_snippet,
+    $PATHREPOS/wk_base_survey
 
 #################################################################
 
